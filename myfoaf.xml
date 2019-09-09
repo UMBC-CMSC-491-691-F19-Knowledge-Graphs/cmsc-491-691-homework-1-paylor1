@@ -1,0 +1,28 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Victor Paylor</foaf:name>
+<foaf:givenname>Victor</foaf:givenname>
+<foaf:family_name>Paylor</foaf:family_name>
+<foaf:mbox_sha1sum>214499886bebb68ecaf1ea1f2259619baa81ace5</foaf:mbox_sha1sum>
+<foaf:phone rdf:resource="tel:4438262476"/>
+<foaf:geekcode>GED/J d-- s:++>: a-- C++(++++) ULU++ P+ L++ E---- W+(-) N+++ o+ K+++ w--- O- M+ V-- PS++>$ PE++>$ Y++ PGP++ t- 5+++ X++ R+++>$ tv+ b+ DI+++ D+++ G+++++ e++ h r-- y++**</foaf:geekcode>
+<foaf:pastProject>Lawbot</foaf:pastProject>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Jac Chalker</foaf:name>
+<foaf:mbox_sha1sum>fe651dbfa31789b3a739408b67df1f37727f3559</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dwayne Johnson</foaf:name>
+<foaf:mbox_sha1sum>a763ae8044e1e608d84d0364149edac53e8737c0</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
